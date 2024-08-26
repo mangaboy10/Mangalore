@@ -1,0 +1,40 @@
+.panel-grid {
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    
+    
+}
+
+.guts-panel,
+.miyamoto, .monster,
+.one-piece, .vagabond, .aot, .gojo, .hxh,
+.OPM, .vinland, .chainsaw, .fire-force, .hakari,
+.MHA, .sakamoto {
+    height:fit-content;
+    width: fit-content;
+}
+
+.guts-panel, .miyamoto, .monster, .one-piece,
+.vagabond,  .aot, .gojo, .hxh,
+.OPM, .vinland, .chainsaw, .fire-force, .hakari,
+.MHA, .sakamoto {
+    height: 300px;
+    width: 300px;
+}
+
+
+
+.gens {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+
+

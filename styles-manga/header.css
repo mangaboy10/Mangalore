@@ -1,0 +1,17 @@
+.header {
+    height:55px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.title {
+    font-size: 50px;
+}
+
+.sections {
+    justify-content: center;
+}
